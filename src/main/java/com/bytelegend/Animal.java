@@ -1,3 +1,5 @@
 package com.bytelegend;
 
-public class Animal {}
+public class Animal {
+    
+}
