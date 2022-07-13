@@ -9,7 +9,8 @@ public class GirlTest {
     @Test
     @CaptureSystemOutput
     public void testGirl(CaptureSystemOutput.OutputCapture capture) {
-        capture.expect(Matchers.containsString("I'm a girl\nmy name is: Alice\nmy age is: 8"));
+        String regex = "I'm a girl\\s+my name is: Alice\\s+my age is: 8\\s+";
+        capture.expect(Matchers.matchesPattern(regex));
         new Girl("Alice", 8).sayGirl();
     }
 }
