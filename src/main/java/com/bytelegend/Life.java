@@ -1,7 +1,7 @@
 package com.bytelegend;
 
 public class Life {
-    public final String name;
+    private final String name;
     public Life(String name) {
         this.name = name;
     }
