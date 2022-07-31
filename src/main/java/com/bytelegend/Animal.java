@@ -5,7 +5,7 @@ public class Animal extends Life {
 
     public Animal(String name, String sound) {
         super(name);
-        this.sound;
+        this.sound = sound;
     }
 
     public void animalSound() {
