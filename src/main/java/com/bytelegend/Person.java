@@ -8,6 +8,6 @@ public class Person extends Life{
     }
 
     public void sayMyAge() {
-        System.out.println("My Age is:" + age);
+        System.out.println("my age is: " + age);
     }
 }

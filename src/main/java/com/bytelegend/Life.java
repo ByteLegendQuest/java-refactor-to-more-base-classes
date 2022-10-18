@@ -6,7 +6,8 @@ public class Life {
     public Life(String name) {
         this.name = name;
     }
+
     public void sayMyName() {
-        System.out.println("Say Name");
+        System.out.println("my name is: " + name);
     }
 }
