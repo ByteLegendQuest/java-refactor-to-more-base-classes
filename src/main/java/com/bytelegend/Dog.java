@@ -1,16 +1,12 @@
 package com.bytelegend;
 
-public class Dog {
-    private final String name;
+public class Dog extends Animal {
 
-    public Dog(String name) {
-        this.name = name;
+    Dog(String name) {
+        super(name);
     }
 
-    public void sayMyName() {
-        System.out.println("my name is: " + name);
-    }
-
+    @Override
     public void animalSound() {
         System.out.println("woof");
     }
