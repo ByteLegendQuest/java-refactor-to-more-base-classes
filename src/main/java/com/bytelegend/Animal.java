@@ -1,7 +1,6 @@
 package com.bytelegend;
 
 public class Animal extends Life {
-
     String sound;
     public Animal(String name, String sound) {
         super(name);
@@ -12,3 +11,4 @@ public class Animal extends Life {
         System.out.println(this.sound);
     }
 }
+

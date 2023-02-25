@@ -10,4 +10,5 @@ public class Life {
     public void sayMyName() {
         System.out.println("my name is: " + name);
     }
+
 }
