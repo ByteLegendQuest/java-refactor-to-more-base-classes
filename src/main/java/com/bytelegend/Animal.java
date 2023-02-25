@@ -1,11 +1,14 @@
 package com.bytelegend;
 
-abstract class Animal extends Life {
-    public Animal(String name) {
+public class Animal extends Life {
+
+    String sound;
+    public Animal(String name, String sound) {
         super(name);
+        this.sound = sound;
     }
 
     public void animalSound() {
-        System.out.println("woof");
+        System.out.println(this.sound);
     }
 }

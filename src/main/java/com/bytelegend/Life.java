@@ -1,6 +1,6 @@
 package com.bytelegend;
 
-abstract class Life {
+public class Life {
     final private String name;
 
     public Life(String name) {

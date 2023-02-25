@@ -1,6 +1,6 @@
 package com.bytelegend;
 
-abstract class Person extends Life {
+public class Person extends Life {
 
     private final int age;
     public Person(String name, int age) {
