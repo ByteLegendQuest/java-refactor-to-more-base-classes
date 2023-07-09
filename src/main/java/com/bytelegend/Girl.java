@@ -1,22 +1,9 @@
 package com.bytelegend;
 
-public class Girl {
-    private final String name;
-    private final int age;
-
-    public Girl(String name, int age) {
-        this.name = name;
-        this.age = age;
+public class Girl extends Person{
+    public Girl(String name, int age){
+        super(name, age);
     }
-
-    public void sayMyName() {
-        System.out.println("my name is: " + name);
-    }
-
-    public void sayMyAge() {
-        System.out.println("my age is: " + age);
-    }
-
     public void sayGirl() {
         System.out.println("I'm a girl");
         sayMyName();
